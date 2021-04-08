@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<policy xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <externalIdentifier>1000114039</externalIdentifier>
+    <productRef>
+        <externalIdentifier>studentAccident</externalIdentifier>
+        <product>
+            <externalIdentifier>studentAccident</externalIdentifier>
+            <name>Schülerunfall-/ Sachversicherung Kommunal</name>
+            <description>XML Datei für XPath Übungen</description>
+        </product>
+    </productRef>
+    <subPolicyList>
+        <subPolicy type="standard">
+            <externalIdentifier>1000057488</externalIdentifier>
+            <productRef>
+                <product>
+                    <name>Allgemeine Unfallversicherung Kommunal</name>
+                    <dateStart>2020-02-19</dateStart>
+                    <policyDuration>3</policyDuration>
+                </product>
+            </productRef>
+        </subPolicy>
+        <subPolicy type="premium">
+            <externalIdentifier>1000057585</externalIdentifier>
+            <productRef>
+                <product>
+                    <name>Schüler Unfallversicherung Kommunal</name>
+                    <dateStart>2020-11-30</dateStart>
+                    <policyDuration>5</policyDuration>
+                </product>
+            </productRef>
+        </subPolicy>
+        <subPolicy type="premium">
+            <externalIdentifier>1000099998</externalIdentifier>
+            <productRef>
+                <product>
+                    <name>Feuerwehr Kommunal</name>
+                    <dateStart>2016-01-01</dateStart>
+                    <policyDuration>3</policyDuration>
+                </product>
+            </productRef>
+        </subPolicy>
+    </subPolicyList>
+</policy>

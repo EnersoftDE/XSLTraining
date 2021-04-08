@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<policy xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <externalIdentifier>1000114039</externalIdentifier>
+    <policyIdentifier xsi:nil="true"/>
+    <policyIdentifierForInt xsi:nil="true"/>
+    <legacyIdentifier xsi:nil="true"/>
+    <predefinedPolicyNumber xsi:nil="true"/>
+    <communicationIdentifier xsi:nil="true"/>
+    <isTransferredFromExternalAdm>false</isTransferredFromExternalAdm>
+    <productRef>
+        <externalIdentifier>studentAccident</externalIdentifier>
+        <product>
+            <externalIdentifier>studentAccident</externalIdentifier>
+            <name>Schülerunfall-/ Sachversicherung Kommunal</name>
+            <description>Test Beschreibung</description>
+            <productTypeRef xsi:nil="true"/>
+            <productClusterRef>
+                <externalIdentifier>Schüler Unfall</externalIdentifier>
+                <productCluster>
+                    <externalIdentifier>Schüler Unfall</externalIdentifier>
+                    <name>Schüler Unfall</name>
+                </productCluster>
+            </productClusterRef>
+            <producerBusinessUnitRef>
+                <externalIdentifier>GVVK</externalIdentifier>
+                <businessUnit>
+                    <externalIdentifier>GVVK</externalIdentifier>
+                    <name>GVV-Kommunalversicherung VVaG</name>
+                    <collectorIdentifier>GVVK</collectorIdentifier>
+                    <address>
+                        <name>Heinrich</name>
+                        <surname>Maier</surname>
+                        <postalCode>50933</postalCode>
+                        <houseNumber xsi:nil="true"/>
+                        <houseNumberExtension xsi:nil="true"/>
+                        <unstructuredHouseNr>952-958</unstructuredHouseNr>
+                        <streetName>Aachener Straße</streetName>
+                        <streetIdentifier xsi:nil="true"/>
+                        <city>Köln</city>
+                        <cityIdentifier xsi:nil="true"/>
+                        <province xsi:nil="true"/>
+                        <countryRef>
+                            <externalIdentifier>DE</externalIdentifier>
+                            <country>
+                                <externalIdentifier>DE</externalIdentifier>
+                                <name>Deutschland</name>
+                            </country>
+                        </countryRef>
+                        <addressIndication xsi:nil="true"/>
+                        <addressLine1>Aachener Str. 952-958</addressLine1>
+                        <addressLine2 xsi:nil="true"/>
+                        <addressLine3 xsi:nil="true"/>
+                        <addressLine4 xsi:nil="true"/>
+                        <county xsi:nil="true"/>
+                    </address>
+                </businessUnit>
+            </producerBusinessUnitRef>
+        </product>
+    </productRef>
+    <subPolicyList>
+        <subPolicy>
+            <externalIdentifier>1000057488</externalIdentifier>
+            <productRef>
+                <product>
+                    <name>Allgemeine Unfallversicherung Kommunal</name>
+                    <dateStart>2020-02-19</dateStart>
+                    <policyDuration>3</policyDuration>
+                </product>
+            </productRef>
+        </subPolicy>
+        <subPolicy>
+            <externalIdentifier>1000057585</externalIdentifier>
+            <productRef>
+                <product>
+                    <name>Schüler Unfallversicherung Kommunal</name>
+                    <dateStart>2020-11-30</dateStart>
+                    <policyDuration>5</policyDuration>
+                </product>
+            </productRef>
+        </subPolicy>
+        <subPolicy>
+            <externalIdentifier>1000099998</externalIdentifier>
+            <productRef>
+                <product>
+                    <name>Feuerwehr Kommunal</name>
+                    <dateStart>2016-01-01</dateStart>
+                    <policyDuration>3</policyDuration>
+                </product>
+            </productRef>
+        </subPolicy>
+
+    </subPolicyList>
+</policy>
